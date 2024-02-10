@@ -10,7 +10,8 @@ This is just a template!
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-Next Steps
+# Next Steps
+
 We will conduct sentiment analysis on user reviews for birth control drugs in order to predict user ratings and screen drugs for things like effectiveness and side effects. To conduct sentiment analysis, cleaning of the data will be necessary. Cleaning measures include:
 * reducing redundancy (lowercasing, replacing contractions, stemming, lemmatization)
 * tokenization ('i will find you' -> ['i', 'will', 'find', 'you']
