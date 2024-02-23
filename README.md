@@ -24,8 +24,7 @@ We will also need to assign sentiment values to words. For instance, "great" may
 # Milestone 3
 
 1. Finish major preprocessing
-     a. For tabular data, this includes scaling and/or transforming your data, imputing your data, encoding your data, feature expansion, Feature expansion (example is taking features and generating new features by transforming via polynomial, log multiplication of features).
-     b. For image data this includes scaling the number of pixels from HD to SD i.e. down sampling (1280x720x3RGB to 640x360x3RGB or further). This also includes flattening your image like we did in HW2 64x64 to 4096 x 3RGB so 12888. Another option is transforming RGB to gray scale.
+     Creating dataframes to use data in a linear regression.
 
 2. Train your first model
    
