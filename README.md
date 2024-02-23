@@ -24,6 +24,7 @@ We will also need to assign sentiment values to words. For instance, "great" may
 # Milestone 3
 
 1. Finish major preprocessing
+
      Creating dataframes to use data in a linear regression.
 
 2. Train your first model
