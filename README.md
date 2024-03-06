@@ -23,7 +23,7 @@ We will also need to assign sentiment values to words. For instance, "great" may
 # Milestone 4
 
 1. Evaluate your data, labels and loss function. Were they sufficient or did you have have to change them?
-   The first model we used was a linear regression using MSE for loss. For this milestone, we will use a DNN with categorical/binary cross-entropy as our loss function.
+   * The first model we used was a linear regression using MSE for loss. For this milestone, we will use a DNN with categorical/binary cross-entropy as our loss function.
 
 3. Train your second model
 
