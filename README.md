@@ -20,6 +20,26 @@ We will conduct sentiment analysis on user reviews for birth control drugs in or
 * spellcheck
 We will also need to assign sentiment values to words. For instance, "great" may be assigned a more positive value than "good", and "bad" will be assigned a negative value.
 
+# Milestone 4
+
+1. Evaluate your data, labels and loss function. Were they sufficient or did you have have to change them?
+   The first model we used was a linear regression using MSE for loss. For this milestone, we will use a DNN with categorical/binary cross-entropy as our loss function.
+
+3. Train your second model
+
+4. Evaluate your model compare training vs test error
+
+5. Where does your model fit in the fitting graph, how does it compare to your first model?
+
+6. Did you perform hyper parameter tuning? K-fold Cross validation? Feature expansion? What were the results?
+
+5. What is the plan for the next model you are thinking of and why?
+
+6. Update your readme with this info added to the readme with links to the jupyter notebook!
+
+7. Conclusion section: What is the conclusion of your 2nd model? What can be done to possibly improve it? How did it perform to your first and why?
+
+Please make sure your second model has been trained, and predictions for train, val and test are done and analyzed. 
 
 # Milestone 3
 
