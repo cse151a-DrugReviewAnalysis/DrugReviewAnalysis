@@ -23,21 +23,25 @@ We will also need to assign sentiment values to words. For instance, "great" may
 # Milestone 4
 
 1. Evaluate your data, labels and loss function. Were they sufficient or did you have have to change them?
-   * The first model we used was a linear regression using MSE for loss. For this milestone, we will use a DNN with categorical/binary cross-entropy as our loss function.
+   * The first model we used was a linear regression using MSE for loss. For this milestone, we will use a DNN with MSE as our loss function.
 
 3. Train your second model
 
 4. Evaluate your model compare training vs test error
+   * We had a training error of ABC and a test error of XYZ
 
-5. Where does your model fit in the fitting graph, how does it compare to your first model?
+6. Where does your model fit in the fitting graph, how does it compare to your first model?
+   * Our model is not as good as our first model, as the test error of our first model was 6.32, and the test error of this model was 
 
-6. Did you perform hyper parameter tuning? K-fold Cross validation? Feature expansion? What were the results?
+8. Did you perform hyper parameter tuning? K-fold Cross validation? Feature expansion? What were the results?
+   * We performed feature expansion by doing sentiment analysis on the review texts on top of TF-IDF. Neither linear regression nor DNN was improved by this additional feature.
 
 5. What is the plan for the next model you are thinking of and why?
+   * For our next model, we are planning on
 
-6. Update your readme with this info added to the readme with links to the jupyter notebook!
+7. Update your readme with this info added to the readme with links to the jupyter notebook!
 
-7. Conclusion section: What is the conclusion of your 2nd model? What can be done to possibly improve it? How did it perform to your first and why?
+8. Conclusion section: What is the conclusion of your 2nd model? What can be done to possibly improve it? How did it perform to your first and why?
 
 Please make sure your second model has been trained, and predictions for train, val and test are done and analyzed. 
 
