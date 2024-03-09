@@ -28,10 +28,10 @@ We will also need to assign sentiment values to words. For instance, "great" may
 3. Train your second model
 
 4. Evaluate your model compare training vs test error
-   * We had a training mean squared error of 6.408446640685858 and a test mean squared error of 9.6741797
+   * We had a training mean squared error of 6.408446640685858 and a test mean squared error of 9.6741797.
 
 6. Where does your model fit in the fitting graph, how does it compare to your first model?
-   * Our model is not as good as our first model, as the test error of our first model was 6.32, and the test error of this model was 9.6741797
+   * Our model is not as good as our first model, as the test error of our first model was 6.32, and the test error of this model was 9.6741797.
 
 8. Did you perform hyper parameter tuning? K-fold Cross validation? Feature expansion? What were the results?
    * We performed feature expansion by doing sentiment analysis on the review texts on top of TF-IDF. Neither linear regression nor DNN was improved by this additional feature.
@@ -42,7 +42,7 @@ We will also need to assign sentiment values to words. For instance, "great" may
 7. Update your readme with this info added to the readme with links to the jupyter notebook!
 
 8. Conclusion section: What is the conclusion of your 2nd model? What can be done to possibly improve it? How did it perform to your first and why?
-   DNN and feature performance did not significantly improve our error, though it did prevent overfitting. The model could be improved by 
+   DNN and feature performance did not significantly improve our error, though it did prevent overfitting. We are hoping ot improve on performance by doing XYZ for the next model.
 
 Please make sure your second model has been trained, and predictions for train, val and test are done and analyzed. 
 
