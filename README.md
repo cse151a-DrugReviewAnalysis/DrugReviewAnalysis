@@ -37,12 +37,12 @@ We will also need to assign sentiment values to words. For instance, "great" may
    * We performed feature expansion by doing sentiment analysis on the review texts on top of TF-IDF. Neither linear regression nor DNN was improved by this additional feature.
 
 5. What is the plan for the next model you are thinking of and why?
-   * For our next model, we are planning on
+   * For our next model, we are planning on using context-dependent word embedding instead of TF-IDF.
 
 7. Update your readme with this info added to the readme with links to the jupyter notebook!
 
 8. Conclusion section: What is the conclusion of your 2nd model? What can be done to possibly improve it? How did it perform to your first and why?
-   DNN and feature performance did not significantly improve our error, though it did prevent overfitting. We are hoping ot improve on performance by doing XYZ for the next model.
+   DNN and feature performance did not significantly improve our error, though it did prevent overfitting. We are hoping ot improve on performance by using a different word embedding from TF-IDF for our next model, such as context-dependent word embedding.
 
 Please make sure your second model has been trained, and predictions for train, val and test are done and analyzed. 
 
