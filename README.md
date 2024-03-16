@@ -33,7 +33,7 @@ Results section. This will include the results from the methods listed above (C)
 > #### Model 3 - Neural Network Regressor using BERT word embeddings
 > * MSE Train: $1.10432768$
 > * MSE Validation: $2.03449368$
-> ![loss_plot](model3_loss_per_epochs.png "Model 3 Loss per Epoch")
+> ![loss plot](model3_loss_per_epochs.png "Model 3 Loss per Epoch")
 > * MSE Test: $2.01165271$
 
 Discussion section: This is where you will discuss the why, and your interpretation and your though process from beginning to end. This will mimic the sections you have created in your methods section as well as new sections you feel you need to create. You can also discuss how believable your results are at each step. You can discuss any short comings. It's ok to criticize as this shows your intellectual merit, as to how you are thinking about things scientifically and how you are able to correctly scrutinize things and find short comings. In science we never really find the perfect solution, especially since we know something will probably come up int he future (i.e. donkeys) and mess everything up. If you do it's probably a unicorn or the data and model you chose are just perfect for each other!
